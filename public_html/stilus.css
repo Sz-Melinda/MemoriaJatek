@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+*{
+    
+    box-sizing: border-box;
+}
+
+main{
+    
+    width: 800px;
+    margin: auto;
+}
+
+footer, article, header{
+    
+    border: 2px solid black;
+    
+    background-color: white;
+}
+
+img{
+    
+    width: 100%;
+    padding: 5px;
+}
+
+article{
+    
+    display: grid;
+    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    background-color: lightblue;
+}
+
+h1, p{
+    
+    text-align: center;
+}
+
+body{
+    
+    background-color: coral;
+}
